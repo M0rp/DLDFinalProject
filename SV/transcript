@@ -1,0 +1,55 @@
+# do game.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:57:58 on May 04,2024
+# vlog game.sv fsm.sv mux.sv lfsr.sv game_tb.sv datapath.sv flopr.sv 
+# -- Compiling module game
+# -- Compiling module fsm
+# -- Compiling module mux2
+# -- Compiling module mux3
+# -- Compiling module mux4
+# -- Compiling module mux5
+# -- Compiling module mux6
+# -- Compiling module mux16
+# -- Compiling module lfsr
+# -- Compiling module lfsrx64
+# -- Compiling module tb
+# -- Compiling module datapath
+# -- Compiling module evolve3
+# -- Compiling module evolve5
+# -- Compiling module evolve8
+# -- Compiling module rules
+# -- Compiling module flopr
+# 
+# Top level modules:
+# 	mux3
+# 	mux4
+# 	mux5
+# 	mux6
+# 	mux16
+# 	tb
+# End time: 00:57:58 on May 04,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.tb 
+# Start time: 00:57:58 on May 04,2024
+# Loading sv_std.std
+# Loading work.tb
+# Loading work.game
+# Loading work.fsm
+# Loading work.lfsrx64
+# Loading work.lfsr
+# Loading work.mux2
+# Loading work.datapath
+# Loading work.evolve3
+# Loading work.rules
+# Loading work.evolve5
+# Loading work.evolve8
+# Loading work.flopr
+# .list
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode

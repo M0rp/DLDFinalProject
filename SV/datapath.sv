@@ -4,6 +4,7 @@
  
  */
 
+//This controls the actual evolution of the game state. Feed in the current to get the next
 module datapath ( grid, grid_evolve );
 
    output logic [63:0] 	grid_evolve;
@@ -84,7 +85,7 @@ module datapath ( grid, grid_evolve );
  
 endmodule // top
 
-
+//Everything elze here just helps the data path
 module evolve3 (next_state, vector1, vector2, vector3, current_state);
 	
    input logic  vector1;
@@ -118,7 +119,6 @@ module evolve5 (next_state, vector1, vector2, vector3,
    
 endmodule // evolve5
 
-
 module evolve8 (next_state, vector1, vector2, vector3, 
 		vector4, vector5, vector6, 
 		vector7, vector8, current_state);
@@ -142,7 +142,6 @@ module evolve8 (next_state, vector1, vector2, vector3,
    rules r1 (sum, current_state, next_state);
    
 endmodule // evolve8
-
 
 module rules (pop_count, current_state, next_state);
    
